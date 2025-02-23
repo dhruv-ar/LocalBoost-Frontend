@@ -1,0 +1,54 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Entire background set to grey */
+
+    position: relative;
+    left: 75px;
+    /* Keeps this to maintain your positioning adjustments */
+}
+
+.login-form {
+    background: #f0f2f5;
+    /* Set form background to grey to match the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 340px;
+    /* Adjust if necessary to center or place the form as needed */
+}
+
+.input-field {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    /* Ensure input fields are visibly distinct from the background */
+}
+
+.button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #004085;
+}
+
+.link {
+    text-align: center;
+    color: #0066cc;
+    cursor: pointer;
+}

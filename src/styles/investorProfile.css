@@ -1,0 +1,36 @@
+.user-profile-form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+.user-profile-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile-form label {
+    margin-bottom: 10px;
+}
+
+.user-profile-form input,
+.user-profile-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.user-profile-form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-profile-form button:hover {
+    background-color: #0056b3;
+}

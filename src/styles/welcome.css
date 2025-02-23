@@ -1,0 +1,21 @@
+/* welcome.css */
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+}
+
+.welcome h1 {
+    margin: 0.5em 0;
+    font-size: 2.5em;
+}
+
+.welcome h2 {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}

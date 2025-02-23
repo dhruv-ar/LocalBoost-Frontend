@@ -1,0 +1,19 @@
+.owner-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owner-details img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* Makes the image circular */
+    object-fit: cover;
+    /* Ensures the image covers the area without distorting */
+    margin-bottom: 10px;
+}
+
+.owner-details h2,
+.owner-details p {
+    margin: 5px 0;
+}
